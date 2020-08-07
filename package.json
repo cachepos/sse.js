@@ -1,5 +1,5 @@
 {
-  "name": "sse.js",
+  "name": "@cachepos/sse.js",
   "version": "0.4.5",
   "description": "A flexible Server-Sent Events source; supports POST requests and custom headers",
   "main": "./lib/sse.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mpetazzoni/sse.js"
+    "url": "https://github.com/cachepos/sse.js.git"
   },
   "keywords": [
     "sse",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/mpetazzoni/sse.js/issues"
   },
-  "homepage": "https://github.com/mpetazzoni/sse.js"
+  "homepage": "https://github.com/mpetazzoni/sse.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
